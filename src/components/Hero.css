@@ -1,0 +1,173 @@
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background: var(--bg-color);
+}
+
+.hero-content {
+    text-align: center;
+    z-index: 2;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+    padding: 20px;
+}
+
+.hero-content.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.logo-container {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 2rem;
+    width: 100%;
+}
+
+.side-icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hero-icon {
+    height: 140px;
+    width: auto;
+    opacity: 0.9;
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.1));
+    transition: transform 0.3s;
+}
+
+.hero-icon:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.hero-logo {
+    max-width: none;
+    height: 200px;
+    width: auto;
+    filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.2));
+}
+
+.hero-title {
+    font-family: 'Anton', sans-serif;
+    font-size: 5rem;
+    line-height: 0.9;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    color: #888;
+    margin-bottom: 3rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-button {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 0 20px rgba(255, 15, 64, 0.3);
+}
+
+.cta-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px rgba(255, 15, 64, 0.6);
+}
+
+.hero-noise {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.05;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding-top: 140px;
+        align-items: flex-start;
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .hero-content {
+        padding: 0 15px 40px;
+    }
+
+    .hero-title {
+        font-size: 2.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .logo-container {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 0.5rem;
+        align-items: center;
+        justify-items: center;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .hero-logo {
+        grid-column: 1 / -1;
+        grid-row: 1;
+        height: auto;
+        width: 90%;
+        max-width: 350px;
+        margin-bottom: 2rem;
+    }
+
+    .side-icons {
+        display: contents;
+    }
+
+    .hero-icon {
+        width: 100%;
+        height: auto;
+        max-width: 50px;
+        aspect-ratio: 1/1;
+        object-fit: contain;
+        margin: 0;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .cta-button {
+        padding: 0.8rem 2rem;
+        font-size: 1.2rem;
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 380px) {
+    .hero-title {
+        font-size: 2.2rem;
+    }
+}

@@ -1,0 +1,43 @@
+.card-deck-section {
+    padding: 100px 0;
+    text-align: center;
+    background: #000;
+    overflow: hidden;
+}
+
+.card-container {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.card-wrapper {
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+    transform-style: preserve-3d;
+}
+
+.card-wrapper.flipping {
+    transform: rotateY(90deg);
+}
+
+.playing-card {
+    max-width: 350px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s;
+}
+
+.card-container:hover .playing-card {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(255, 15, 64, 0.2);
+}
+
+@media (max-width: 768px) {
+    .playing-card {
+        max-width: 280px;
+    }
+}

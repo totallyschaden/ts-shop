@@ -1,0 +1,155 @@
+.buy-section {
+    padding: 100px 0 0;
+    background: linear-gradient(180deg, #050505 0%, #1a050a 100%);
+    text-align: center;
+    position: relative;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.buy-title {
+    font-family: 'Anton', sans-serif;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.price-tag {
+    font-family: 'Anton', sans-serif;
+    font-size: 6rem;
+    color: var(--accent-color);
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+
+.currency {
+    font-size: 3rem;
+    vertical-align: super;
+}
+
+.decimal {
+    font-size: 3rem;
+}
+
+.shipping-note {
+    color: #888;
+    margin-bottom: 3rem;
+}
+
+.buy-button {
+    background-color: white;
+    color: black;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.buy-button:hover {
+    transform: translateY(-5px) scale(1.05);
+    background-color: #f0f0f0;
+}
+
+
+
+.footer {
+    margin-top: auto;
+    padding: 2rem 0;
+    border-top: 1px solid #222;
+    background: black;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer-payments {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    opacity: 0.6;
+    transition: opacity 0.3s;
+}
+
+.footer-payments:hover {
+    opacity: 1;
+}
+
+.footer-payment-logo {
+    height: 24px;
+    width: auto;
+    filter: grayscale(100%);
+    transition: filter 0.3s, transform 0.3s;
+}
+
+.footer-payment-logo:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+.footer-links a {
+    color: #888;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+.copyright {
+    color: #444;
+    font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+    .buy-section {
+        padding: 60px 0 0;
+    }
+
+    .buy-title {
+        font-size: 2.5rem;
+    }
+
+    .price-tag {
+        font-size: 4rem;
+    }
+
+    .currency,
+    .decimal {
+        font-size: 2rem;
+    }
+
+    .buy-button {
+        padding: 1rem 1.5rem;
+        font-size: 1.2rem;
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .footer-payments {
+        flex-wrap: nowrap;
+        gap: 1rem;
+        margin-top: 3rem;
+    }
+
+    .footer-payment-logo {
+        width: auto;
+        height: 30px;
+        /* Reduce size slightly to fit all in one line */
+    }
+
+    .footer-links {
+        flex-direction: row;
+        gap: 1.5rem;
+        flex-wrap: nowrap;
+    }
+}
