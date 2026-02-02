@@ -2,7 +2,7 @@ const content = {
     hero: {
         title: "LASS DAS CHAOS",
         titleAccent: "BEGINNEN!",
-        subtitle: "Das Spiel, dass die Katze im Sack lässt und den Kater hervorruft.",
+        subtitle: "Das Trinkspiel, dass die Katze im Sack lässt und den Kater hervorruft.",
         cta: "JETZT KAUFEN"
     },
     productShowcase: {
@@ -11,7 +11,7 @@ const content = {
         features: [
             { icon: "💀", text: "80 zerstörer Karten" },
             { icon: "⏱️", text: "60+ Minuten purer Schaden" },
-            { icon: "🥃", text: "Mindestens ein Dreier" }
+            { icon: "🥃", text: "Ein Dreier muss sein" }
         ],
         description: [
             "Alles, was du brauchst, um morgen nichts mehr zu wissen.",
