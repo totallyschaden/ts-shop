@@ -32,6 +32,9 @@ app.post('/create-checkout-session', async (req, res) => {
         const session = await stripe.checkout.sessions.create({
             line_items,
             mode: 'payment',
+            shipping_address_collection: {
+                allowed_countries: ['CH', 'DE', 'AT', 'LI', 'FR', 'IT'],
+            },
             success_url: `${DOMAIN}/success`,
             cancel_url: `${DOMAIN}/cancel`,
         });

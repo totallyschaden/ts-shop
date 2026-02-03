@@ -49,7 +49,9 @@ const content = {
                 title: 'EINFACH LOS LASSEN',
                 desc: 'Lass los... Lass das Spiel übernehmen.'
             }
-        ]
+        ],
+        extraText: "WIESO TOTALLYSCHADEN? WEIL ES VON CHAOTEN FÜR CHAOTEN ERSTELLT WURDE",
+        extraTextAccent: " ODER TRAUST DU DICH NICHT MEHR?"
     },
     buySection: {
         title: "AUF WAS WARTEST",
@@ -59,13 +61,13 @@ const content = {
             amount: "24",
             decimal: ",95"
         },
-        shipping: "Kostenloser Versand in die Hölle (innerhalb EU)",
+        shipping: "Kostenloser Versand für deine Kopfschmerzen",
         cta: "REIN IN DEN WARENKORB",
         paymentMethods: ["VISA", "MASTERCARD", "PAYPAL", "TWINT"],
         footer: {
             links: [
-                { text: "AGB", href: "#" },
-                { text: "Datenschutz", href: "#" },
+                { text: "AGB", href: "/agb" },
+                { text: "Datenschutz", href: "/datenschutz" },
                 { text: "Impressum", href: "#" }
             ],
             copyright: "Totally Schaden. Alle Rechte vorbehalten."
@@ -78,6 +80,23 @@ const content = {
         title: "WIR WARTEN AUF",
         titleAccent: "DICH!",
         reviews: "Über uns hier am Tisch gibt es leider keine Rezensionen, da sich keiner mehr erinnern kann...hehe"
+    },
+    checkout: {
+        success: {
+            title: "ERFOLG!",
+            message: "Bist du bereit für SHOTS? Deine Bestellung ist auf dem Weg zu dir.",
+            cta: "ZURÜCK ZUR PARTY"
+        },
+        cancel: {
+            title: "ABGEBROCHEN",
+            message: "Hast du Angst bekommen?",
+            cta: "ZURÜCK ZUM WARENKORB"
+        },
+        empty: {
+            title: "DEIN WARENKORB IST LEER",
+            message: "Ich hoffe, aber dein Glass nicht!",
+            cta: "ZURÜCK ZUM SHOP"
+        }
     }
 }
 

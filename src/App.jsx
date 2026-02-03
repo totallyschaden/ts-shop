@@ -4,6 +4,8 @@ import Home from './pages/Home'
 import CartPage from './pages/CartPage'
 import Success from './pages/Success'
 import Cancel from './pages/Cancel'
+import AGB from './pages/AGB'
+import Datenschutz from './pages/Datenschutz'
 import Navbar from './components/Navbar'
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
             <Route path="/cart" element={<CartPage />} />
             <Route path="/success" element={<Success />} />
             <Route path="/cancel" element={<Cancel />} />
+            <Route path="/agb" element={<AGB />} />
+            <Route path="/datenschutz" element={<Datenschutz />} />
           </Routes>
         </div>
       </Router>

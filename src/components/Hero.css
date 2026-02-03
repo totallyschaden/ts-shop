@@ -1,5 +1,8 @@
 .hero {
-    height: 100vh;
+    min-height: 80vh;
+    /* Reduced from 100vh to pull next section up */
+    padding-bottom: 4rem;
+    /* Ensure some bottom spacing but not huge */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,10 +69,13 @@
 }
 
 .hero-subtitle {
-    font-size: 1.25rem;
-    color: #888;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.4;
     margin-bottom: 3rem;
-    max-width: 600px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -109,7 +115,9 @@
         padding-top: 140px;
         align-items: flex-start;
         height: auto;
-        min-height: 100vh;
+        min-height: auto;
+        /* Let content dictate height on mobile */
+        padding-bottom: 4rem;
     }
 
     .hero-content {

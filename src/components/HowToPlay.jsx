@@ -21,6 +21,19 @@ const HowToPlay = () => {
                         </div>
                     ))}
                 </div>
+                <p className="htp-extra-text" style={{
+                    marginTop: '4rem',
+                    fontSize: '1.2rem',
+                    color: 'white',
+                    maxWidth: '800px',
+                    margin: '4rem auto 0',
+                    fontFamily: "'Anton', sans-serif",
+                    textTransform: 'uppercase',
+                    lineHeight: '1.4',
+                    textAlign: 'center'
+                }}>
+                    {howToPlay.extraText} <span className="text-accent">{howToPlay.extraTextAccent}</span>
+                </p>
             </div>
         </section>
     )

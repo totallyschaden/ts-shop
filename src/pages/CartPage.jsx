@@ -1,5 +1,6 @@
 import { useCart } from '../context/CartContext'
 import { Link } from 'react-router-dom'
+import content from '../content'
 import './CartPage.css'
 
 const CartPage = () => {
@@ -7,7 +8,7 @@ const CartPage = () => {
 
     const handleCheckout = async () => {
         try {
-            const response = await fetch('/api/create-checkout-session', {
+            const response = await fetch('http://localhost:4242/create-checkout-session', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -31,9 +32,9 @@ const CartPage = () => {
     if (cart.length === 0) {
         return (
             <div className="cart-page container">
-                <h1>DEIN WARENKORB IST LEER</h1>
-                <p>Wie deine Seele... Füll ihn auf!</p>
-                <Link to="/" className="continue-shopping">ZURÜCK ZUM SHOP</Link>
+                <h1>{content.checkout.empty.title}</h1>
+                <p>{content.checkout.empty.message}</p>
+                <Link to="/" className="continue-shopping">{content.checkout.empty.cta}</Link>
             </div>
         )
     }

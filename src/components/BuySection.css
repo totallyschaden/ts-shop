@@ -9,6 +9,11 @@
     justify-content: space-between;
 }
 
+.buy-content {
+    margin-bottom: 6rem;
+    /* Space between button and gallery */
+}
+
 .buy-title {
     font-family: 'Anton', sans-serif;
     font-size: 3.5rem;
