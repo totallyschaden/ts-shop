@@ -2,7 +2,7 @@ const content = {
     hero: {
         title: "LASS DAS CHAOS",
         titleAccent: "BEGINNEN!",
-        subtitle: "Das Trinkspiel, dass die Katze im Sack lässt und den Kater hervorruft.",
+        subtitle: "Das Trinkspiel, das die Katze im Sack lässt und den Kater hervorruft.",
         cta: "JETZT KAUFEN"
     },
     productShowcase: {
@@ -32,7 +32,7 @@ const content = {
             {
                 number: '01',
                 title: 'OPFER FINDEN',
-                desc: 'Ihr seit zu dritt? Auf was wartet ihr noch?'
+                desc: 'Ihr seid zu dritt? Auf was wartet ihr noch?'
             },
             {
                 number: '02',
@@ -42,7 +42,7 @@ const content = {
             {
                 number: '03',
                 title: 'REGELN LESEN & LEVEL WÄHLEN',
-                desc: 'Nicht nur die Getränke, auch das Deck mischen. Zieh eine Karte und hoffe sie ist nicht ROT!'
+                desc: 'Nicht nur die Getränke, auch das Deck mischen. Zieh eine Karte und hoffe, sie ist nicht ROT!'
             },
             {
                 number: '04',
@@ -79,7 +79,7 @@ const content = {
     gallery: {
         title: "WIR WARTEN AUF",
         titleAccent: "DICH!",
-        reviews: "Über uns hier am Tisch gibt es leider keine Rezensionen, da sich keiner mehr erinnern kann...hehe"
+        reviews: "Über TotallySchaden gibt es leider keine Rezensionen, da sich keiner mehr erinnern kann...hehe"
     },
     checkout: {
         success: {
@@ -94,7 +94,7 @@ const content = {
         },
         empty: {
             title: "DEIN WARENKORB IST LEER",
-            message: "Ich hoffe, aber dein Glass nicht!",
+            message: "Ich hoffe aber, dein Glas nicht!",
             cta: "ZURÜCK ZUM SHOP"
         }
     }
