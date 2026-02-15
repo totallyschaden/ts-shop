@@ -9,7 +9,7 @@ const content = {
         title: "DIE BOX VOLLER",
         titleAccent: "SCHLECHTER ENTSCHEIDUNGEN",
         features: [
-            { icon: "💀", text: "80 Zerstörer-Karten" },
+            { icon: "💀", text: "80 Zerstörerische Karten" },
             { icon: "⏱️", text: "60+ Minuten purer Schaden" },
             { icon: "🥃", text: "Ein Dreier muss sein" }
         ],
@@ -37,7 +37,7 @@ const content = {
             {
                 number: '02',
                 title: 'GETRÄNK? JA! SHOTS? JAA!',
-                desc: 'Jeder schnappt sich ein Getränk, um die SHOTS zu vergessen... hehe'
+                desc: 'Jeder schnappt sich ein Getränk, um die SHOTS runterzuspülen... hehe'
             },
             {
                 number: '03',
@@ -58,11 +58,12 @@ const content = {
         titleAccent: "DU?",
         price: {
             currency: "CHF",
-            amount: "24",
-            decimal: ",95"
+            amount: "29",
+            decimal: ",90"
         },
         shipping: "Kostenloser Versand für deine Kopfschmerzen",
         cta: "REIN IN DEN WARENKORB",
+        reviewsHint: "Über TotallySchaden gibt es leider keine Rezensionen, da sich keiner mehr erinnern kann...hehe",
         paymentMethods: ["VISA", "MASTERCARD", "PAYPAL", "TWINT"],
         footer: {
             links: [
@@ -78,8 +79,7 @@ const content = {
     },
     gallery: {
         title: "WIR WARTEN AUF",
-        titleAccent: "DICH!",
-        reviews: "Über TotallySchaden gibt es leider keine Rezensionen, da sich keiner mehr erinnern kann...hehe"
+        titleAccent: "DICH!"
     },
     checkout: {
         success: {

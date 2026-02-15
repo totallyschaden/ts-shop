@@ -3,7 +3,6 @@ import visa from '../assets/payment/visa.png'
 import mastercard from '../assets/payment/mastercard.png'
 import paypal from '../assets/payment/paypal.png'
 import twint from '../assets/payment/twint.png'
-import Gallery from './Gallery'
 import './BuySection.css'
 import { useCart } from '../context/CartContext'
 
@@ -36,11 +35,10 @@ const BuySection = () => {
                 <button className="buy-button" onClick={handleAddToCart}>
                     {buySection.cta}
                 </button>
+                <p className="reviews-hint">{buySection.reviewsHint}</p>
 
 
             </div>
-
-            <Gallery />
 
             <footer className="footer">
                 <div className="container">

@@ -1,7 +1,8 @@
 .hero {
     min-height: 80vh;
     /* Reduced from 100vh to pull next section up */
-    padding-bottom: 4rem;
+    padding-bottom: 50px;
+    padding-top: 140px;
     /* Ensure some bottom spacing but not huge */
     display: flex;
     align-items: center;
@@ -27,11 +28,16 @@
 
 .logo-container {
     margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.8);
     display: flex;
     justify-content: center;
     align-items: flex-end;
     gap: 2rem;
     width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .side-icons {
@@ -117,7 +123,7 @@
         height: auto;
         min-height: auto;
         /* Let content dictate height on mobile */
-        padding-bottom: 4rem;
+        padding-bottom: 30px;
     }
 
     .hero-content {
@@ -177,5 +183,62 @@
 @media (max-width: 380px) {
     .hero-title {
         font-size: 2.2rem;
+    }
+}
+
+
+
+.hero-gallery-title {
+    font-family: 'Anton', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.hero-video-wrapper {
+    position: relative;
+    max-width: 800px;
+    width: 90%;
+    aspect-ratio: 16/9;
+    background: #111;
+    border: 1px solid #333;
+    border-radius: 12px;
+    overflow: hidden;
+    z-index: 2;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+    margin-bottom: 2rem;
+}
+
+.hero-gameplay-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hero-glow-effect {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 110%;
+    height: 110%;
+    background: var(--accent-color);
+    filter: blur(80px);
+    opacity: 0.15;
+    z-index: -1;
+    pointer-events: none;
+}
+
+@media (max-width: 768px) {
+    .hero-gallery-title {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .hero-video-wrapper {
+        width: 100%;
+        margin-bottom: 1.5rem;
     }
 }

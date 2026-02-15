@@ -1,5 +1,5 @@
 .how-to-play {
-    padding: 100px 0;
+    padding: 50px 0;
     background-color: #050505;
     text-align: center;
 }
@@ -71,7 +71,7 @@
 
 @media (max-width: 768px) {
     .how-to-play {
-        padding: 60px 0;
+        padding: 30px 0;
     }
 
     .htp-title {

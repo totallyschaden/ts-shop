@@ -33,6 +33,8 @@ const Hero = () => {
                         <img src={icon6} alt="Icon 6" className="hero-icon" />
                     </div>
                 </div>
+
+
                 <h1 className="hero-title">{hero.title}<br /><span className="text-accent">{hero.titleAccent}</span></h1>
                 <p className="hero-subtitle">{hero.subtitle}</p>
                 <button className="cta-button" onClick={() => document.getElementById('buy').scrollIntoView({ behavior: 'smooth' })}>
