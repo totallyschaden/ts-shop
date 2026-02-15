@@ -9,7 +9,7 @@ const content = {
         title: "DIE BOX VOLLER",
         titleAccent: "SCHLECHTER ENTSCHEIDUNGEN",
         features: [
-            { icon: "💀", text: "80 zerstörer Karten" },
+            { icon: "💀", text: "80 Zerstörer-Karten" },
             { icon: "⏱️", text: "60+ Minuten purer Schaden" },
             { icon: "🥃", text: "Ein Dreier muss sein" }
         ],
@@ -32,12 +32,12 @@ const content = {
             {
                 number: '01',
                 title: 'OPFER FINDEN',
-                desc: 'Ihr seid zu dritt? Auf was wartet ihr noch?'
+                desc: 'Ihr seid mindestens ein Dreier? Auf was wartet ihr noch?'
             },
             {
                 number: '02',
                 title: 'GETRÄNK? JA! SHOTS? JAA!',
-                desc: 'Jeder schnappt sich ein Getränk, um die SHOTS zu vergessen..hehe'
+                desc: 'Jeder schnappt sich ein Getränk, um die SHOTS zu vergessen... hehe'
             },
             {
                 number: '03',

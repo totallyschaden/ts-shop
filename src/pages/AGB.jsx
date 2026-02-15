@@ -8,7 +8,7 @@ const AGB = () => {
 
             <section style={{ marginBottom: '2rem' }}>
                 <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem', color: 'white' }}>1. Geltungsbereich</h2>
-                <p>Diese Allgemeinen Geschäftsbedingungen (AGB) gelten für alle Bestellungen und die Nutzung der Website totallyschaden (nachfolgend „Anbieter“) durch Kundinnen und Kunden.</p>
+                <p>Diese Allgemeinen Geschäftsbedingungen (AGB) gelten für alle Bestellungen und die Nutzung der Website TotallySchaden (nachfolgend „Anbieter“) durch Kundinnen und Kunden.</p>
                 <p>Mit der Nutzung der Website bzw. der Bestellung eines Produkts erklärst du dich mit diesen AGB einverstanden.</p>
             </section>
 
@@ -38,7 +38,7 @@ const AGB = () => {
 
             <section style={{ marginBottom: '2rem' }}>
                 <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem', color: 'white' }}>6. Nutzung und Verantwortung</h2>
-                <p>Die Inhalte und Spiele von totallyschaden dienen ausschliesslich der Unterhaltung.</p>
+                <p>Die Inhalte und Spiele von TotallySchaden dienen ausschliesslich der Unterhaltung.</p>
                 <p>Die Teilnahme an Trinkspielen erfolgt freiwillig und auf eigene Verantwortung. Der Anbieter übernimmt keine Haftung für gesundheitliche, rechtliche oder sonstige Folgen, die aus dem Konsum von Alkohol entstehen.</p>
                 <p>Die Teilnahme ist ausschliesslich für volljährige Personen (18+) vorgesehen.</p>
             </section>

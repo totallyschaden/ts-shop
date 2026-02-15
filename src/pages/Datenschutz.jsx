@@ -8,14 +8,14 @@ const Datenschutz = () => {
 
             <section style={{ marginBottom: '2rem' }}>
                 <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem', color: 'white' }}>1. Allgemeine Hinweise</h2>
-                <p>Der Schutz deiner persönlichen Daten ist uns ein wichtiges Anliegen. In dieser Datenschutzerklärung informieren wir dich darüber, welche personenbezogenen Daten auf der Website totallyschaden erhoben, verarbeitet und genutzt werden.</p>
+                <p>Der Schutz deiner persönlichen Daten ist uns ein wichtiges Anliegen. In dieser Datenschutzerklärung informieren wir dich darüber, welche personenbezogenen Daten auf der Website TotallySchaden erhoben, verarbeitet und genutzt werden.</p>
                 <p>Diese Website richtet sich ausschliesslich an volljährige Personen (18+).</p>
             </section>
 
             <section style={{ marginBottom: '2rem' }}>
                 <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem', color: 'white' }}>2. Verantwortliche Stelle</h2>
                 <p>Verantwortlich für die Datenverarbeitung auf dieser Website ist:</p>
-                <p>totallyschaden<br />(E-Mail-Adresse oder Kontaktmöglichkeit hier einfügen)</p>
+                <p>TotallySchaden<br />(E-Mail-Adresse oder Kontaktmöglichkeit hier einfügen)</p>
             </section>
 
             <section style={{ marginBottom: '2rem' }}>
