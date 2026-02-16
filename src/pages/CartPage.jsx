@@ -8,7 +8,7 @@ const CartPage = () => {
 
     const handleCheckout = async () => {
         try {
-            const response = await fetch('http://localhost:4242/create-checkout-session', {
+            const response = await fetch('/create-checkout-session', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
