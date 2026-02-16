@@ -15,7 +15,7 @@ const BuySection = () => {
         addToCart({
             id: 'basic-deck',
             title: 'Totally Schaden - Das Spiel',
-            price: 24.95,
+            price: 29.90,
             image: '' // You could add an image path here later
         })
         alert('Zum Warenkorb hinzugefügt!')

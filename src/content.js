@@ -83,8 +83,8 @@ const content = {
     },
     checkout: {
         success: {
-            title: "ERFOLG!",
-            message: "Bist du bereit für SHOTS? Deine Bestellung ist auf dem Weg zu dir.",
+            title: "OJE, BESTELLT!",
+            message: "Hol die SHOTS! Deine Bestellung ist auf dem Weg zu dir.",
             cta: "ZURÜCK ZUR PARTY"
         },
         cancel: {
