@@ -70,6 +70,17 @@ const AGB = () => {
                 <p>Es gilt Schweizer Recht.</p>
                 <p>Gerichtsstand ist der Sitz des Anbieters, soweit keine zwingenden gesetzlichen Bestimmungen entgegenstehen.</p>
             </section>
+
+            <section style={{ marginBottom: '2rem' }}>
+                <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem', color: 'white' }}>12. Kontakt</h2>
+                <p>
+                    TotallySchaden<br />
+                    Nikola Ristic<br />
+                    Juraweg 1k<br />
+                    3324 Hindelbank<br />
+                    <a href="mailto:info@totallyschaden.ch" style={{ color: 'var(--accent-color)', textDecoration: 'none' }}>info@totallyschaden.ch</a>
+                </p>
+            </section>
         </div>
     );
 };
