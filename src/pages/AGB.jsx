@@ -27,8 +27,7 @@ const AGB = () => {
 
             <section style={{ marginBottom: '2rem' }}>
                 <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem', color: 'white' }}>4. Lieferung</h2>
-                <p>Digitale Produkte werden nach erfolgreichem Zahlungseingang elektronisch bereitgestellt (z. B. Download oder Anzeige auf der Website).</p>
-                <p>Physische Produkte (falls angeboten) werden an die vom Kunden angegebene Adresse geliefert.</p>
+                <p>Physische Produkte werden an die vom Kunden angegebene Adresse geliefert.</p>
             </section>
 
             <section style={{ marginBottom: '2rem' }}>
